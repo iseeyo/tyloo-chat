@@ -1,6 +1,6 @@
 <!--
  * @file: Emoji表情包区域
- * @copyright: NanJing Anshare Tech .Com
+ * @copyright: BoBo
  * @author: BoBo
  * @Date: 2020年11月05 16:40:11
 -->
@@ -98,9 +98,7 @@
 </template>
 
 <script lang="ts">
-import {
-  Component, Vue,
-} from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class Emoji extends Vue {

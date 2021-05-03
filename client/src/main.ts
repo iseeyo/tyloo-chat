@@ -1,6 +1,6 @@
 /*
  * @file: Main js 入口文件
- * @copyright: NanJing Anshare Tech .Com
+ * @copyright: BoBo
  * @author: BoBo
  * @Date: 2020年11月05 16:40:11
  */
@@ -51,5 +51,5 @@ Vue.use(Viewer, {
 new Vue({
   router,
   store,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');
